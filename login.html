@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+            font-family: Arial, sans-serif;
+           background-image:url(back.jpg);
+            color: #333;
+                
+    
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="logo">inflorist</a>
+        <div>
+            <a href="shop.html" target="_blank">Shop</a>
+            <a href="about.html" target="_blank">Our Story</a>
+            <a href="contact.html" target="_blank">Get in Touch</a>
+            <a href="gallery.html" target="_blank">Gallery</a>
+            <a href="login.html" target="_blank">Login</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Username" name="username" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <a href="#" class="forgot">Forgot Password?</a>
+                <button type="submit">Login</button>
+            </form>
+            <a href="#" class="signup">Not a Member? Sign up</a>
+        </div>
+    </div>
+
+    <footer>
+        <p><a href="login.html">Sign up</a> to create a smile on your loved ones.</p>
+        <p>inflorist Shop | Address: Kathmandu | Email: <a href="mailto:inflorist@flowershop.com">inflorist@flowershop.com</a></p>
+    </footer>
+</body>
+</html>

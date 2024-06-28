@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #ababa3;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #8d8060;
+}
+
+.maintext {
+    background-image: url("idk.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 2em;
+}
+
+.maintext .text {
+    align-self: flex-end;
+}
+
+.maintext h1 {
+    color: #FFFFE0;
+    font-size: 3em;
+    text-align: right;
+    margin: 1;
+}
+
+.maintext .button-container {
+    align-self: flex-end;
+}
+
+.maintext button {
+    padding: 1em 1em;
+    font-size: 1em;
+    background-color: #dbcca6;
+    color: #353b24;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.maintext button:hover {
+    background-color: #657052;
+}
+
+footer {
+    background-color: #ababa3;
+    text-align: center;
+
+    margin-top: auto;
+}
+.box {
+    display: flex;
+   
+    background-color:  #cacabe;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.content {
+    padding: 20px;
+    flex: 1;
+    font-size: 2em;
+}
+
+.form-box {
+    padding: 20px;
+    flex: 1;
+    border-left: 1px solid #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, select, textarea, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.gallery-item p {
+    color: #666;
+    font-size: 1rem;
+    margin: 0 0 10px;
+}
+
+.gallery-item .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.gallery-item .delivery {
+    color: #28a745;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.login-container {
+    background-color: #e7e7dd;
+    padding: 2rem;
+    border-radius: 10px;
+  
+    text-align: center;
+    width: 300px;
+}
+
+.login-container h2 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.login-container .forgot,
+.login-container .signup {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #204772;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+
+.login-container button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #afc9a5;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button[type="submit"]:hover {
+    background-color: #6f8168;
+}
