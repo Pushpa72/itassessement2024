@@ -229,3 +229,15 @@ button:hover {
 .login-container button[type="submit"]:hover {
     background-color: #6f8168;
 }
+
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+}
+.gallery-item .date {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
